@@ -1,3 +1,7 @@
+package br.com.julio.fiap.myassist.models;
+
+import br.com.julio.fiap.myassist.enums.TipoEquipamentoEnum;
+
 public class Equipamento {
 
     String marca, modelo, numeroSerie;

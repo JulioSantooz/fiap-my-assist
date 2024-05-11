@@ -1,6 +1,11 @@
-public class Cliente {
+package br.com.julio.fiap.myassist.models;
 
-    String nome, telefone, email, endereco, documento;
+import br.com.julio.fiap.myassist.enums.TipoDocumentoEnum;
+import br.com.julio.fiap.myassist.models.abstracts.Pessoa;
+
+public class Cliente extends Pessoa {
+
+    String endereco, documento;
     TipoDocumentoEnum tipoDocumento;
 
     public Cliente() {

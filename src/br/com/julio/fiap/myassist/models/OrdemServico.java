@@ -1,5 +1,10 @@
+package br.com.julio.fiap.myassist.models;
+
+import br.com.julio.fiap.myassist.enums.PrioridadeExecucaoEnum;
+import br.com.julio.fiap.myassist.enums.StatusExecucaoEnum;
+import br.com.fiap_julio.models.*;
+
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 public class OrdemServico {
@@ -13,10 +18,10 @@ public class OrdemServico {
     Equipamento equipamento;
     List<Servico> servicos;
 
-    //Cliente cliente = new Cliente("Julio Henrique","11 92224-3265", "julio@hotmail.com", "Rua selva aberta", "12368599784", "cpf");
-    //Tecnico responsavel = new Tecnico("Adalberto", "1178458821", "adalberto@hotmail.com");
-    //Equipamento equipamento = new Equipamento("Macbook", "Pro M2", "ABFD12354", "Notebook");
-    //List<Servico> servicos = new ArrayList<>();
+    //br.com.fiap_julio.models.Cliente cliente = new br.com.fiap_julio.models.Cliente("Julio Henrique","11 92224-3265", "julio@hotmail.com", "Rua selva aberta", "12368599784", "cpf");
+    //br.com.fiap_julio.models.Tecnico responsavel = new br.com.fiap_julio.models.Tecnico("Adalberto", "1178458821", "adalberto@hotmail.com");
+    //br.com.fiap_julio.models.Equipamento equipamento = new br.com.fiap_julio.models.Equipamento("Macbook", "Pro M2", "ABFD12354", "Notebook");
+    //List<br.com.fiap_julio.models.Servico> servicos = new ArrayList<>();
 
     public OrdemServico() {
 

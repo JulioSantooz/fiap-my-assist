@@ -1,3 +1,5 @@
+package br.com.julio.fiap.myassist.models;
+
 import java.time.LocalDateTime;
 
 public class Servico {

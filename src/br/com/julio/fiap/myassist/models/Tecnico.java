@@ -1,6 +1,8 @@
-public class Tecnico {
+package br.com.julio.fiap.myassist.models;
 
-    String nome, telefone, email;
+import br.com.julio.fiap.myassist.models.abstracts.Pessoa;
+
+public class Tecnico extends Pessoa {
 
     public Tecnico() {
 
