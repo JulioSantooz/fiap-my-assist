@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Login {
+public class LoginDTO {
 
     @NotBlank()
     private String login;

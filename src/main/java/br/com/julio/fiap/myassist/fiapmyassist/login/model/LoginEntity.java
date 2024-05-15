@@ -1,12 +1,11 @@
 package br.com.julio.fiap.myassist.fiapmyassist.login.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Entity
 @Data
-public class UsuarioEntity {
+public class LoginEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
