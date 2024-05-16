@@ -1,4 +1,4 @@
-package br.com.julio.fiap.myassist.fiapmyassist.login.model;
+package br.com.julio.fiap.myassist.fiapmyassist.service.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

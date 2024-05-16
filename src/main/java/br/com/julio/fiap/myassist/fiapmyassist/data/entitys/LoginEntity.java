@@ -1,4 +1,4 @@
-package br.com.julio.fiap.myassist.fiapmyassist.login.model;
+package br.com.julio.fiap.myassist.fiapmyassist.data.entitys;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,5 +1,6 @@
-package br.com.julio.fiap.myassist.fiapmyassist.login.model;
+package br.com.julio.fiap.myassist.fiapmyassist.data.repositorys;
 
+import br.com.julio.fiap.myassist.fiapmyassist.data.entitys.LoginEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

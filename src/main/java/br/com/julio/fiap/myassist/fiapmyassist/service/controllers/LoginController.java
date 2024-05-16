@@ -1,8 +1,8 @@
-package br.com.julio.fiap.myassist.fiapmyassist.login;
+package br.com.julio.fiap.myassist.fiapmyassist.service.controllers;
 
-import br.com.julio.fiap.myassist.fiapmyassist.login.model.LoginDTO;
-import br.com.julio.fiap.myassist.fiapmyassist.login.model.LoginEntity;
-import br.com.julio.fiap.myassist.fiapmyassist.login.model.LoginRepository;
+import br.com.julio.fiap.myassist.fiapmyassist.service.dto.LoginDTO;
+import br.com.julio.fiap.myassist.fiapmyassist.data.entitys.LoginEntity;
+import br.com.julio.fiap.myassist.fiapmyassist.data.repositorys.LoginRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping("/login")
-public class LoginREST {
+public class LoginController {
 
     @Autowired
     LoginRepository repository;
